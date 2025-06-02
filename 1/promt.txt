@@ -1,0 +1,11 @@
+I need to choose a database for the applications. Here is the requirements:
+ - Social platform with millions of users 
+- Need to store profiles, posts, and connections between users 
+- High data read speed required 
+- Expected 80% read operations, 20% write operations 
+- Scalability is important as the user base grows 
+
+You answer should contains for the each step: 
+1. Analyze a given requirements and provide a brief feedback 
+2. Justify and select the most suitable type of database for the project. And order top 5 
+3. You should provide the best solution based on previous steps with argumentation
