@@ -1,23 +1,36 @@
-h1. Logout Button Unresponsive in Safari
+## Title  
+Logout button doesn’t work on Safari
 
-*Description:*
-The logout button does not function properly in the Safari browser. Clicking the button does not trigger any response, preventing users from logging out successfully.
+## Description  
+The QA team reported that the **Logout** button does not respond when clicked in the **Safari** browser.  
+Users remain logged in with no feedback or redirection.  
+This issue is specific to Safari; logout works normally in Chrome and Firefox.
 
-*Steps to Reproduce:*
-# Open Safari browser.
-# Navigate to the application login page and sign in.
-# Locate and click the "Logout" button.
+## Steps to Reproduce  
+1. Open the application in the **Safari** browser  
+2. Log in using valid credentials  
+3. Navigate to any page where the **Logout** button is visible  
+4. Click the **Logout** button  
+5. Observe the behavior
 
-*Expected vs Actual Behavior:*
+## Expected vs Actual Behavior
 
-|| *Expected Behavior* || *Actual Behavior* ||
-| Clicking the "Logout" button logs the user out and redirects them to the login screen. | Clicking the "Logout" button does nothing. No visible response or logout action occurs. |
+**Expected Behavior:**  
+- Clicking **Logout** should end the user session  
+- The user should be redirected to the login or homepage  
+- Optional visual confirmation should appear
 
-*Environment:*
-- *Browser:* Safari (Version XX.X)
-- *Operating System:* macOS (Version XX.X)
-- *User Role:* [Specify if relevant, e.g., Admin/User]
+**Actual Behavior:**  
+- Clicking **Logout** does nothing  
+- User remains logged in  
+- No feedback or redirect
 
-*Severity or Impact:*
-- *Impact:* Prevents users from logging out, which could lead to security concerns if sessions remain active.
-- *Severity:* Medium to High (Requires immediate attention if affecting security policies).
+## Environment (if known)  
+- Browser: Safari (versions 14.x, 15.x)  
+- Operating System: macOS Big Sur, Monterey  
+- Other browsers tested: Chrome, Firefox (working as expected)  
+- Application version: _[Insert version/build]_
+
+## Severity or Impact  
+**High** — Logout is a critical security and UX function.  
+Failure to log out on Safari risks session persistence and user frustration.
