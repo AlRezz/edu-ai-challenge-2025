@@ -1,7 +1,9 @@
-I have a brief task description from the QA like "Logout button doesn’t work on Safari. It just doesn’t respond." Could you please provide a well structured task description for the developer which fits the conventions of Jira(Use Confluence Wiki Markup). The description have to contains:
+I have a brief task description from the QA like "Logout button doesn’t work on Safari. It just doesn’t respond." Could you please provide a well structured task description for the developer which fits the conventions of Jira. The description have to contains:
 Title
 Description
 Steps to Reproduce
 Expected vs Actual Behavior
 Environment (if known)
 Severity or Impact
+
+Please format the response to jira  Markdown syntax
