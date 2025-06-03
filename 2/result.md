@@ -1,37 +1,75 @@
-Title:
-Logout Button Unresponsive on Safari
+h2. Title
+Logout button doesn’t work on Safari
 
-Description:
-QA has identified an issue where the Logout button does not function in the Safari browser. When users attempt to log out, clicking the button yields no response—no session termination, no redirection, and no visible error message. This behavior appears to be limited to Safari, as the logout functionality works as expected in other browsers such as Chrome and Firefox.
+h2. Description
+The QA team reported that the *Logout* button does not respond when clicked in the *Safari* browser.  
+Users remain logged in with no feedback or redirection.  
+This issue is specific to Safari; logout works normally in Chrome and Firefox.
 
-Steps to Reproduce:
+h2. Steps to Reproduce
+# Open the application in the *Safari* browser  
+# Log in using valid credentials  
+# Navigate to any page where the *Logout* button is visible  
+# Click the *Logout* button  
+# Observe the behavior
 
-Open the application in the Safari browser.
+h2. Expected vs Actual Behavior
+*Expected Behavior:*  
+* Clicking *Logout* should end the user session  
+* The user should be redirected to the login or homepage  
+* Optional visual confirmation should appear
 
-Log in using valid credentials.
+*Actual Behavior:*  
+* Clicking *Logout* does nothing  
+* User remains logged in  
+* No feedback or redirect
 
-Navigate to any screen where the Logout button is available.
+h2. Environment (if known)
+* Browser: Safari (versions 14.x, 15.x)  
+* Operating System: macOS Big Sur, Monterey  
+* Other browsers tested: Chrome, Firefox (working as expected)  
+* Application version: _[Insert version/build]_
 
-Click the Logout button.
+h2. Severity or Impact
+*High* — Logout is a critical security and UX function.  
+Failure to log out on Safari risks session persistence and user frustration.
+Markdown Syntax
+markdown
+Copy
+Edit
+## Title  
+Logout button doesn’t work on Safari
 
-Observe the behavior.
+## Description  
+The QA team reported that the **Logout** button does not respond when clicked in the **Safari** browser.  
+Users remain logged in with no feedback or redirection.  
+This issue is specific to Safari; logout works normally in Chrome and Firefox.
 
-Expected vs Actual Behavior:
+## Steps to Reproduce  
+1. Open the application in the **Safari** browser  
+2. Log in using valid credentials  
+3. Navigate to any page where the **Logout** button is visible  
+4. Click the **Logout** button  
+5. Observe the behavior
 
-Expected Behavior:
-Clicking the Logout button should terminate the user's session and redirect them to the login screen or homepage. Optionally, a visual confirmation or message should appear.
+## Expected vs Actual Behavior
 
-Actual Behavior:
-Clicking the Logout button has no effect. The user remains logged in, and there is no feedback, redirection, or error.
+**Expected Behavior:**  
+- Clicking **Logout** should end the user session  
+- The user should be redirected to the login or homepage  
+- Optional visual confirmation should appear
 
-Environment (if known):
+**Actual Behavior:**  
+- Clicking **Logout** does nothing  
+- User remains logged in  
+- No feedback or redirect
 
-Browser: Safari (confirmed on versions 14.x and 15.x)
+## Environment (if known)  
+- Browser: Safari (versions 14.x, 15.x)  
+- Operating System: macOS Big Sur, Monterey  
+- Other browsers tested: Chrome, Firefox (working as expected)  
+- Application version: _[Insert version/build]_
 
-Operating System: macOS Big Sur, macOS Monterey
-
-Other Browsers Tested: Chrome and Firefox (Logout works as expected)
-
-Severity or Impact:
-High – A critical function (logout) is not working in Safari. This may lead to security risks, session persistence issues, and poor user experience for Safari users.
-
+## Severity or Impact  
+**High** — Logout is a critical security and UX function.  
+Failure to log out on Safari risks session persistence and user frustration.
