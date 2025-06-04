@@ -1,0 +1,20 @@
+{
+  "summary": "Remote work has grown significantly, especially after the pandemic, due to benefits like increased job satisfaction, better work-life balance, and reduced company costs. However, it also presents challenges such as employee isolation, productivity issues, and difficulties in communication. Despite these drawbacks, remote and hybrid work models are expected to continue, supported by advancing technologies.",
+  "sentiment_label": "Positive",
+  "sentiment_score": 1,
+  "positive_points": [
+    "Increased job satisfaction",
+    "Improved work-life balance",
+    "Reduced operational costs",
+    "Flexibility of working from home",
+    "Advancement in communication and collaboration tools"
+  ],
+  "negative_points": [
+    "Feelings of isolation",
+    "Reduced collaboration and team dynamics",
+    "Productivity issues due to home distractions",
+    "Challenges in monitoring performance and communication"
+  ],
+  "overall_tone_balance": "The text acknowledges both pros and cons but leans towards a positive outlook with the continued development of hybrid work and technology.",
+  "future_outlook": "Optimistic"
+}
