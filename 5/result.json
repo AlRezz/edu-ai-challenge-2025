@@ -1,0 +1,49 @@
+[
+    {
+      "sentiment": "Negative",
+      "isRelevant": true,
+      "mainSubject": "Sensor reliability and connectivity issues",
+      "positives": [],
+      "painPoints": [
+        "Sensor stops tracking intermittently",
+        "Issue persists even when plugged in",
+        "Initial dongle was non-functional",
+        "Product is expensive for the experience"
+      ],
+      "improvementSuggestions": [
+        "Improve sensor tracking stability",
+        "Ensure dongle functionality before shipping",
+        "Improve overall product reliability for the price"
+      ],
+      "featuresMentioned": [
+        "Sensor",
+        "Dongle",
+        "Wireless connectivity",
+        "Price"
+      ],
+      "userExpertise": "Experienced"
+    },
+    {
+      "sentiment": "Mixed",
+      "isRelevant": true,
+      "mainSubject": "Product value vs performance",
+      "positives": [
+        "Product has no flaws in function",
+        "Performs well"
+      ],
+      "painPoints": [
+        "Not worth the price",
+        "Comparable performance available in cheaper alternatives"
+      ],
+      "improvementSuggestions": [
+        "Adjust pricing to match performance advantage"
+      ],
+      "featuresMentioned": [
+        "Price",
+        "Performance",
+        "Value"
+      ],
+      "userExpertise": "Experienced"
+    }
+  ]
+  
